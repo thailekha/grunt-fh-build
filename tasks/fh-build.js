@@ -139,7 +139,7 @@ module.exports = function(grunt) {
       },
 
       'pack': {
-        command: 'npm pack',
+        command: 'npm pack --verbose',
         options: {
           callback: function(err, stdout, stderr, cb) {
             if (err || stderr) {
